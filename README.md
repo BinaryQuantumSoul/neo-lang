@@ -19,9 +19,8 @@ In this case, the LLM is required to generate a YAML file which contains
 You should then talk with the agent to ask it to change the grammar the alphabet or anything about the language.
 You can use the transliteration for converting to other alphabets too :)
 
-2. Then copy-paste the generated YAML to a file and download the [main](main.py) python file.
-3. Then you can try your language with
-`pip install argparse exrex`
+2. Download the [main](main.py) python file and install dependencies `pip install argparse exrex`
+3. Then copy-paste the generated YAML to a file and you can try your language with
 `python main.py MYFILE.yaml`
 
 Feel free to share your language creations in [examples](/examples) (right now examples are pretty bad lol).
