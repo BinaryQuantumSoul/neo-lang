@@ -2,6 +2,8 @@
 Proof of concept of using LLMs to make conlangs
 
 ![imagen](https://github.com/user-attachments/assets/0f321c81-d4a7-4ae3-b617-002d15c7a1f9)
+![imagen](https://github.com/user-attachments/assets/c2864878-b165-407f-876e-fdb3040883a5)
+
 
 
 ## How does it work
