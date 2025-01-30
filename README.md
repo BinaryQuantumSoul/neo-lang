@@ -1,6 +1,9 @@
 # neo-lang
 Proof of concept of using LLMs to make conlangs
 
+![imagen](https://github.com/user-attachments/assets/0f321c81-d4a7-4ae3-b617-002d15c7a1f9)
+
+
 ## How does it work
 Inspired by Linguisticae's [video](https://www.youtube.com/watch?v=LsxCzZOqZmI).
 
