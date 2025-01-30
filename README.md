@@ -17,7 +17,7 @@ In this case, the LLM is required to generate a YAML file which contains
 
 1. The prompt can be found [here](prompt.txt). Simply copy-paste it inside a LLM chat bot.
 You should then talk with the agent to ask it to change the grammar the alphabet or anything about the language.
-You can use the transliteration for converting to other alphabets to :)
+You can use the transliteration for converting to other alphabets too :)
 
 2. Then copy-paste the generated YAML to a file and download the [main](main.py) python file.
 3. Then you can try your language with
@@ -30,7 +30,7 @@ Feel free to share your language creations in [examples](/examples) (right now e
 This is a fun one day experiment project and it's thus quite a bit limited.
 
 Here are some possible improvements:
-- Improve the prompt
+- Improve the prompt (please)
 - Use grammars intead of regular languages for word roles, for example detail vowel consonants patterns such as CVCV
 - Use context-dependent grammars for sentence creation
 - Use a finite-state transductor for transliteration
