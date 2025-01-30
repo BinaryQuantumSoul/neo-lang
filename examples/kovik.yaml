@@ -1,0 +1,38 @@
+language:
+  name: "Kovik"
+
+word_roles:
+  noun: "[PTKBDG]([AEIOU])[PTKBDG]([AEIOU])"
+  verb: "([MNK][AEIOU])|([MNK][AEIOU][AEIOU])"
+  funny_symbol: "(:|!|@)"
+  
+grammar_rules:
+  S: ["@funny_symbol NP VP @funny_symbol"]
+  NP: ["@noun"]
+  VP: ["@verb", "@verb NP"]
+
+phonetic_rules:
+  - pattern: "M"  
+    replace: "m"
+  - pattern: "N"  
+    replace: "n"
+  - pattern: "K"  
+    replace: "k"
+  - pattern: "B"  
+    replace: "b"
+  - pattern: "D"  
+    replace: "d"
+  - pattern: "G"  
+    replace: "g"
+  - pattern: "P"  
+    replace: "p"
+  - pattern: "A"  
+    replace: "ɑ"
+  - pattern: "E"  
+    replace: "ɛ"
+  - pattern: "I"  
+    replace: "i"
+  - pattern: "O"  
+    replace: "ɔ"
+  - pattern: "U"  
+    replace: "u"
